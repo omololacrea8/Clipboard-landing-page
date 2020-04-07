@@ -1,72 +1,123 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Barlow%7CBarlow+Condensed:400,700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Project tracking intro component</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="log">
-        <img src='images/logo.svg' alt=" " />
-      </div>
-      <div class="menu">
-        <!-- Mobile-->
-        <div class="pro">
-          <input id="pro" aria-label="mobile navigation" type="checkbox">
-          <nav class="pro-active">
-            <a class="feat" href="#">Products</a>
-            <a class="feat" href="#" >Features</a>
-            <a class="feat" href="#" >Pricing</a>
-            <a class="feat" href="#" >Login</a>  
-          </nav>
-          <label for="pro">
-            <div class="pro-icon">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </label>
-        </div> 
-        <!-- Larger -->
-        <ul>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li class="dot">.</li>
-          <li><a class="active" href="#">Login</a></li>
-        </ul>
-      </div>
-      <div class="spar">
-        <div class="spar-head">
-          <div class='spart'>
-            <span>New</span>
-          </div>
-          <h2>Monograph Dashboard</h2>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Clipboard Landing Page</title>
+  <style>
+    .graph {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 0;
+    }
 
-        <p class="team">Powerful insights into your team</p>
-        <p class="team-team">Project planning and time tracking for agile teams</p>
+    .graph a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+<body>
+  <header class="parent">
+    <img class="logo" src="images/logo.svg" alt="logo">
+    <h1>A history of everything you copy</h1>
+    <p class="cboard">Clipboard allows you to track and organize everything you
+      copy. Instantly access your clipboard on all your devices.</p>
+    <a class="iphone" href="#">Download for iOS</a>
+    <a class="macbook" href="#">Download for Mac</a>
+  </header>
 
-        <button class="demo">Schedule a demo</button>
-        <h2 class="preview">to see a preview</h2>
-      </div>
-      <div class="device">
-        <img src='images/illustration-devices.svg' alt=""/>
-      </div>
-
-      <div class="dev"></div>
-      <div class="mentor">
-        <footer>
-          <p class="feel">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel='noopener' target="_blank">Frontend Mentor | ECX</a>. 
-            Coded by <a href="https://github.com/omololacrea8" rel='' target="_blank">Fele Omolola</a>.
-          </p>
-        </footer>
+  <section class="parent">
+    <h2>Keep track of your snippets</h2>
+    <p class="cboard">Clipboard instantly stores any item you copy in the cloud,
+      meaning you can access your snippets immediately on all your
+      devices. Our Mac and iOS apps will help you organize everything.</p>
+    <div class="division">
+      <img class="images computer" src="images/image-computer.png" alt="image-computer">
+      <div class="track-grid-content">
+        <h3>Quick Search</h3>
+        <p class="search-snippet">Easily search your snippets by content, category, web address, application, and more.
+        </p>
+        <h3>iCloud Sync</h3>
+        <p class="search-snippet">Instantly saves and syncs snippets across all your devices.</p>
+        <h3>Complete History</h3>
+        <p class="search-snippet">Retrieve any snippets from the first moment you started using the app.</p>
       </div>
     </div>
-  </body>
+  </section>
+
+  <section class="parent">
+    <h2>Access Clipboard anywhere</h2>
+    <p class="cboard">Whether you’re on the go, or at your computer, you can access all your Clipboard
+      snippets in a few simple clicks.</p>
+    <img class="images device" src="images/image-devices.png" alt="image-devices">
+  </section>
+
+  <section class="parent">
+    <h2>Supercharge your workflow</h2>
+    <p class="cboard">We’ve got the tools to boost your productivity.</p>
+    <div class="supercharge">
+      <div>
+        <img class="inform" src="images/icon-blacklist.svg" alt="blacklists">
+        <h3>Create blacklists</h3>
+        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
+      <div>
+        <img class="plain" src="images/icon-text.svg" alt="text">
+        <h3>Plain text snippets</h3>
+        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      <div>
+        <img class="sneak" src="images/icon-preview.svg" alt="preview">
+        <h3>Sneak preview</h3>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
+  </section>
+  <div class="company-logo wrapper">
+    <img src="images/logo-google.png" alt="logo-google">
+    <img src="images/logo-ibm.png" alt="logo-ibm">
+    <img src="images/logo-microsoft.png" alt="logo-microsoft">
+    <img src="images/logo-hp.png" alt="logo-hp">
+    <img src="images/logo-vector-graphics.png" alt="logo-vector-graphics">
+  </div>
+
+  <section class="parent">
+    <h2>Clipboard for iOS and Mac OS</h2>
+    <p class="cboard">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+      and you’re ready to start adding to your clipboard.</p>
+    <a class="iphone" href="#">Download for iOS</a>
+    <a class="macbook" href="#">Download for Mac</a>
+  </section>
+
+  <div class="parent footer">
+    <img class="footer-logo" src="images/logo.svg" alt="logo">
+    <ul>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Press Kit</a></li>
+    </ul>
+    <ul>
+      <li class="last-ul"><a href="#">Install Guide</a></li>
+    </ul>
+    <div>
+      <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+    </div>
+  </div>
+  <footer>
+    <p class="graph">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor | ECX </a>.
+      Coded by <a href="https://github.com/omololacrea8">Fele Omolola</a>.
+    </p>
+  </footer>
+
+</body>
+
 </html>
